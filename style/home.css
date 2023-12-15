@@ -1,0 +1,13 @@
+.section-container-inpt {
+  padding: 10px 30px;
+  outline: none;
+  border-radius: 10px;
+}
+.section-container-btn {
+  background-color: rgb(15, 139, 247);
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=home.css.map */
