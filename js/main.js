@@ -38,16 +38,15 @@ btn.addEventListener('click',function(){
     
         btnEdit.addEventListener('click',function(){//burada yeni btn 
             // yeni EDIt e click etdikde neynesin onu qeyd edirik
-            var newValue = prompt("EDIT:",span.textContent)//EDIT e click 
+            var newValue = prompt("EDIT:",span.textContent.trim())//EDIT e click 
             // etdikde yazilan deyer prompta cxsin 
-            span.textContent = newValue//promptda deyisdiyi
             // deyeri ekranda yeni spanda gostersin 
   
-            if(newValue){
-                span.innerText=newValue
+            if(newValue.trim()){
+                span.innerText=newValue;
             }
             else{
-                alert('bos saxlama')
+                alert('Inputu Bos Saxlama');
             }
   
       })
