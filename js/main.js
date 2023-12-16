@@ -42,12 +42,12 @@ btn.addEventListener('click',function(){
             // etdikde yazilan deyer prompta cxsin 
             // deyeri ekranda yeni spanda gostersin 
   
-            if(newValue.trim()){
+            if(newValue.trim()==""){
+                li.remove()
                 span.innerText=newValue;
-            }
-            else{
                 alert('Inputu Bos Saxlama');
             }
+            
   
       })
       }
